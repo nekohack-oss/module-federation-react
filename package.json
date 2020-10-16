@@ -1,0 +1,14 @@
+{
+  "name": "module-federation-react",
+  "private": true,
+  "scripts": {
+    "build": "lerna run --scope @nekohack/* build",
+    "serve": "lerna run --scope @nekohack/* --parallel serve",
+    "lint": "lerna run --scope @nekohack/* --parallel lint",
+    "lint:fix": "lerna run --scope @nekohack/* --parallel lint:fix",
+    "clean": "lerna run --scope @nekohack/* --parallel clean"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
